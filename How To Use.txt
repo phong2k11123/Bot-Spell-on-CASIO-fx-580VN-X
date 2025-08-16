@@ -9,7 +9,7 @@
 📂 Bot - Spell on CASIO fx-580VN X
 │
 ├── chars.txt          # Chứa danh sách ký tự gốc
-├── takechars.txt      # Chứa dữ liệu ký tự đã lấy
+├── takechars.txt      # Chứa dữ liệu ký tự ẩn
 └── Spell-CASIO.py     # File chạy chính của Tool
 ```
 
