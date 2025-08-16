@@ -1,3 +1,26 @@
-Hướng dẫn sử dụng Tool Spell trên CASIO fx-580VN X ⚙
+ Hướng dẫn sử dụng Tool Spell trên CASIO fx-580VN X ⚙
 I) Cấu trúc dự án
-📂-----
+
+----------------------------------------
+📂-----Bot - Spell on CASIO fx-580VN X 
+|---chars.txt                           
+|---takechars.txt
+|---Spell-CASIO.py (Main)
+----------------------------------------
+
+II) Cách chạy file Spell
+
++ Bước 1: Chạy file Spell-CASIO.py ( File phải nằm trong folder có chars.txt; takechars.txt)
++ Bước 2: Đọc một số thông tin & sử dụng
+
+III) Sử dụng
+
+- Chọn 1 nếu bạn muốn đọc lưu ý
+- Chọn 2 nếu muốn liên hệ
+- Chọn 3 nếu muốn spell
+
+IV) Thông tin
+
+- Tool nằm chỉ dành cho CASIO fx-580VN X
+- Tool này dành riêng cho người VIỆT NAM
+                                                                               Bản quyền © Hack Casio
