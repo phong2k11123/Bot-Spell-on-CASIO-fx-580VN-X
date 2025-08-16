@@ -25,12 +25,12 @@ def show_notes():
         "1. Khi spell chỉ được spell tối đa 17 kí tự nếu nhiều hơn sẽ không spell được!",
         "2. Không được phụ thuộc vào bot!",
         "3. Tool này hoàn toàn miễn phí không được bán bot để kiếm lời!",
-        "4. Tôn trọng bot và người tạo ra bot!",
+        "4. Tôn trọng bot và người tạo ra tool!",
         "5. Không được sao chép tool dưới mọi hình thức!",
         "6. Tool đôi khi sẽ bị lỗi vui lòng cân nhắc trước khi sử dụng!",
         "7. Tool chỉ dành cho CASIO fx-580VN X các loại máy khác sẽ không làm được!",
         "8. Không được sửa tên người tạo ra Tool!",
-        "9. Nếu trong quá trình sử dụng bot bị lỗi chổ nào vui lòng liên hệ để được hỗ trợ!"
+        "9. Nếu trong quá trình sử dụng tool bị lỗi chổ nào vui lòng liên hệ để được hỗ trợ!"
     ]
     for note in notes:
         typewriter(f"  • {note}", 0.04)
@@ -43,7 +43,7 @@ def show_contacts():
         "Discord: Phong2k11®",
         "TikTok: Phong2k11®",
         "YouTube: Phong2k11",
-        "Coder Bot Spell: AxesMC",
+        "Coder Tool Spell: AxesMC",
         "Discord: C++ My Life(@kiet130218_80627) or Kiet1302181(@kiet1302181)",
         "Tiktok: AxesMC or @typedcello07585",
         "Youtube: AxesMC"
@@ -389,4 +389,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
