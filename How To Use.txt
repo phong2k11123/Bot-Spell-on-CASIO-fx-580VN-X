@@ -1,26 +1,47 @@
- Hướng dẫn sử dụng Tool Spell trên CASIO fx-580VN X ⚙
-I) Cấu trúc dự án
 
-----------------------------------------
-📂-----Bot - Spell on CASIO fx-580VN X 
-|---chars.txt                           
-|---takechars.txt
-|---Spell-CASIO.py (Main)
-----------------------------------------
+---
 
-II) Cách chạy file Spell
+# 📖 Hướng Dẫn Sử Dụng Tool **Spell** Trên CASIO fx-580VN X ⚙
 
-+ Bước 1: Chạy file Spell-CASIO.py ( File phải nằm trong folder có chars.txt; takechars.txt)
-+ Bước 2: Đọc một số thông tin & sử dụng
+## I. Cấu trúc dự án
 
-III) Sử dụng
+```
+📂 Bot - Spell on CASIO fx-580VN X
+│
+├── chars.txt          # Chứa danh sách ký tự gốc
+├── takechars.txt      # Chứa dữ liệu ký tự đã lấy
+└── Spell-CASIO.py     # File chạy chính của Tool
+```
 
-- Chọn 1 nếu bạn muốn đọc lưu ý
-- Chọn 2 nếu muốn liên hệ
-- Chọn 3 nếu muốn spell
+---
 
-IV) Thông tin
+## II. Cách chạy file Spell
 
-- Tool nằm chỉ dành cho CASIO fx-580VN X
-- Tool này dành riêng cho người VIỆT NAM
-                                                                               Bản quyền © Hack Casio
+1. **Đặt file** `Spell-CASIO.py` **trong cùng thư mục** với `chars.txt` và `takechars.txt`.
+2. **Chạy file** `Spell-CASIO.py` bằng Python.
+3. Làm theo hướng dẫn hiển thị trên màn hình.
+
+---
+
+## III. Hướng dẫn sử dụng
+
+* **Nhập `1`** → Đọc phần **lưu ý sử dụng**.
+* **Nhập `2`** → **Liên hệ** với tác giả.
+* **Nhập `3`** → Bắt đầu **spell ký tự**.
+
+---
+
+## IV. Thông tin
+
+* **Tool** chỉ hoạt động trên **CASIO fx-580VN X**.
+* Dành riêng cho **người dùng Việt Nam**.
+
+---
+
+**Bản quyền © Hack Casio**
+*All rights reserved.*
+
+---
+
+Nếu bạn muốn mình có thể làm thêm **Markdown README** với ảnh minh họa và bảng hướng dẫn, khi up GitHub sẽ nhìn rất đẹp và chuyên nghiệp hơn hẳn.
+Bạn có muốn mình làm bản đó không?
