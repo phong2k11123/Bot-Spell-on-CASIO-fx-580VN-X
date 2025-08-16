@@ -42,6 +42,3 @@
 *All rights reserved.*
 
 ---
-
-Nếu bạn muốn mình có thể làm thêm **Markdown README** với ảnh minh họa và bảng hướng dẫn, khi up GitHub sẽ nhìn rất đẹp và chuyên nghiệp hơn hẳn.
-Bạn có muốn mình làm bản đó không?
