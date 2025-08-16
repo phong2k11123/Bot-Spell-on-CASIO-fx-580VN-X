@@ -373,7 +373,7 @@ def spell_input():
     typewriter(f"[{17-b} số bất kì] [shift] [(] [2] [x], việc còn lại là bấm [calc] [=]")
     typewriter(f"-----HẾT-----")
     typewriter("Coder Feature: Phong2k11®", 0.04)
-    typewriter("Coder Bot Spell: AxesMC", 0.04)
+    typewriter("Coder Tool Spell: AxesMC", 0.04)
 def main():
     show_menu() #Hiện menu
     while True:
@@ -389,3 +389,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
