@@ -1,44 +1,59 @@
+⚙️ Hướng Dẫn Sử Dụng Tool Spell Trên CASIO fx-580VN X
 
----
+Một công cụ giúp bạn Inject ký tự và tạo hiệu ứng Spell trực tiếp trên máy tính CASIO fx-580VN X.  
+Tài liệu này hướng dẫn cách cài đặt, chạy và sử dụng Tool một cách chi tiết.
 
-# 📖 Hướng Dẫn Sử Dụng Tool **Spell** Trên CASIO fx-580VN X ⚙
+## 🧩 I. Cấu Trúc Dự Án
 
-## I. Cấu trúc dự án
-
-```
-📂 Bot - Spell on CASIO fx-580VN X
+📁 Bot - Spell on CASIO fx-580VN X
 │
-├── chars.txt          # Chứa danh sách ký tự gốc
-├── takechars.txt      # Chứa dữ liệu ký tự ẩn
-└── Spell-CASIO.py     # File chạy chính của Tool
-```
+├── all_hex.json          # Danh sách ký tự gốc của CASIO
+├── chars_key.json      # Dữ liệu ký tự ẩn / đặc biệt
+└── Tool-Spell.py     # File Python chính để chạy Tool
+└──chars_hex.json   #hex kí tự
 
----
+🚀 II. Cách Chạy Tool Trên Máy Tính
 
-## II. Cách chạy file Spell
+1. Cài đặt Python 3.9 trở lên.  
+2. Đặt Tool-Spell.py, chars_hex.json, chars_hex.json và all_hex.json trong cùng một thư mục.  
+3. Mở CMD hoặc Terminal tại thư mục đó.  
+4. Gõ lệnh:
+|---------------------|
+|python Spell-CASIO.py|
+|---------------------|
+5. Làm theo hướng dẫn hiển thị trên màn hình.
 
-1. **Đặt file** `Spell-CASIO.py` **trong cùng thư mục** với `chars.txt` và `takechars.txt`.
-2. **Chạy file** `Spell-CASIO.py` bằng Python.
-3. Làm theo hướng dẫn hiển thị trên màn hình.
+📱 III. Cách Chạy Tool Trên Điện Thoại (Bằng Py3)
 
----
+1. Tải ứng dụng Py3 (Python IDE) trên CH Play hoặc App Store.  
+2. Mở Py3, chọn + để tạo project mới hoặc mở file có sẵn.  
+3. Thêm các file Tool-Spell.py, all_hex.json, chars_key.json, chars_hex.json vào cùng thư mục trong Py3.  
+4. Mở file Tool-Spell.py trong Py3, nhấn nút [Run ▶] ở góc phải màn hình.  
+5. Khi chương trình chạy, nhập các giá trị được yêu cầu giống như trên máy tính.  
+6. Nếu hiện lỗi "file not found", kiểm tra lại xem tất cả file có nằm cùng thư mục không.
 
-## III. Hướng dẫn sử dụng
+## 🧠 IV. Hướng Dẫn Sử Dụng Trong Tool
 
-* **Nhập `1`** → Đọc phần **lưu ý sử dụng**.
-* **Nhập `2`** → **Liên hệ** với tác giả.
-* **Nhập `3`** → Bắt đầu **spell ký tự**.
+Khi chương trình chạy, menu chính sẽ xuất hiện:
 
----
+| Lựa chọn  | Chức năng              |
+|-----------|------------------------|
+| 1         | Xem phần lưu ý sử dụng |
+| 2         | Liên hệ tác giả        |
+| 3         | Bắt đầu Spell ký tự    |
 
-## IV. Thông tin
+Ví dụ: chọn 3 để vào chế độ chính và bắt đầu nhập câu cần inject.
 
-* **Tool** chỉ hoạt động trên **CASIO fx-580VN X**.
-* Dành riêng cho **người dùng Việt Nam**.
+⚡ V. Lưu Ý
 
----
+- Tool chỉ hỗ trợ CASIO fx-580VN X.  
+- Chạy tốt trên Windows, Linux, macOS và ứng dụng Py3 (điện thoại).  
+- Nếu nhập quá 8 dòng, chương trình sẽ yêu cầu nhập lại.  
+- File all_hex.json phải nằm cùng thư mục với Script.
 
-**Bản quyền © Hack Casio**
-*All rights reserved.*
+👤 VI. Thông Tin & Bản Quyền
 
----
+Tác giả: Nhóm Hack Casio ( Link Server Discord: https://discord.gg/4bsW8WFvgS )  
+Mục đích: Hỗ trợ nghiên cứu hiển thị ký tự trên CASIO fx-580VN X  
+Giấy phép: Phi thương mại, dùng cho cá nhân  
+© Hack Casio - All rights reserved.
